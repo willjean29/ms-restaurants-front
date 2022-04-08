@@ -1,0 +1,23 @@
+@import "scss/index.scss";
+
+.layout-admin {
+  transition: margin-left 0.2s;
+  &__header {
+    // width: 100%;
+    // display: flex;
+    background-color: $primary-color-dark;
+    svg {
+      fill: $font-light;
+    }
+  }
+  &__content {
+    min-height: calc(100vh - 125px);
+    padding: 30px 80px;
+  }
+  &__footer {
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+}
